@@ -1,0 +1,40 @@
+package tugas.pkg1;
+
+import java.util.Scanner;
+
+public class Tugas1 {
+    public static void main(String[] args) {
+        Scanner masukan = new Scanner(System.in);
+        int angka1,angka2,operator;
+        System.out.println("KALKULATOR SEDERHANA");
+        System.out.println("1. penjumlahan");
+        System.out.println("2. pengurangan");
+        System.out.println("3. perkalian");
+        System.out.println("4. pembagian");
+        
+        System.out.println("masukkan angka1 :");
+        angka1=masukan.nextInt();
+        System.out.println("masukkan angka operator di atas :");
+        operator=masukan.nextInt();
+        System.out.println("masukkan angka2 :");
+        angka2=masukan.nextInt();
+        
+        if(operator == 1){
+            System.out.println("hasil =" +(angka1 + angka2));
+        }
+        else if(operator == 2){
+            System.out.println("hasil =" +(angka1 + angka2));
+        }
+        else if(operator == 3){
+            System.out.println("hasil =" +(angka1 + angka2));
+        }
+        else if(operator == 4){
+            System.out.println("hasil =" +(angka1 + angka2));
+        }
+        else{
+            System.out.println("kode operator yang anda masukkan salah");
+        }
+        
+    }
+    
+}
